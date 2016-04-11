@@ -20,6 +20,7 @@ namespace EulerProjects
             int top = 15;
             int i = 1;
             var multiplostres = new ArrayList();
+            var multiploscuatro = new ArrayList();
             var multiploscinco = new ArrayList();
             while (i*3 < top)
             {
