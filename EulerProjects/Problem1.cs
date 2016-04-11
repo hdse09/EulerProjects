@@ -10,7 +10,7 @@ namespace EulerProjects
     public class Problem1
     {
         public string Nombre {
-            get { return " Hansy Suma de multiplos de 3 y 5 anteriores a 1000"; }
+            get { return " Suma de multiplos de 3 y 5 anteriores a 1000"; }
         }
 
         public void GetAnswer()
@@ -20,6 +20,7 @@ namespace EulerProjects
             int top = 15;
             int i = 1;
             var multiplostres = new ArrayList();
+            var multiploscuatro = new ArrayList();
             var multiploscinco = new ArrayList();
             while (i*3 < top)
             {
